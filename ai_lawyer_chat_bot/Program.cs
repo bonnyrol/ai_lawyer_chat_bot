@@ -60,10 +60,10 @@ async Task OnCallback(CallbackQuery query)
             await client.SendMessage(query.Message!.Chat, "Выберете суд",
                 replyMarkup: new InlineKeyboardButton[][]
                 {
-                    [("Верх-исетский", "judge_3_1")],
+                    [("Верх-Исетский", "judge_3_1")],
                     [("Кировский", "empty")],
                     [("Октябрьский", "empty")],
-                    [("Железно-дорожный", "empty")],
+                    [("Железнодорожный", "empty")],
                     [("Ленинский", "empty")]
                 });
             break;
