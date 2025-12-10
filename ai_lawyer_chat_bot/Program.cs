@@ -103,7 +103,7 @@ async Task OnMessage(Message message, UpdateType type)
             });
             break;
         case "Создать юридический документ":
-            await client.SendMessage(message.Chat.Id, "Выберете город",
+            await client.SendMessage(message.Chat.Id, "Выберите город",
                 replyMarkup: new InlineKeyboardButton[][]
                 {
                     [("Екатеринбург", "city_1")],
